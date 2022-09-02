@@ -6,20 +6,20 @@ alarm_sound_file_path = "./sounds/alarm.mp3"
 phases = {
     "main": {
         "name": "Pomodoro",
-        "minutes": 0,
-        "seconds": 5
+        "minutes": 25,
+        "seconds": 0
     }, 
 
     "short": {
         "name": "Short Break",
-        "minutes": 0,
-        "seconds": 1
+        "minutes": 15,
+        "seconds": 0
     },
 
     "long": {
         "name": "Long Break",
-        "minutes": 0,
-        "seconds": 2
+        "minutes": 30,
+        "seconds": 0
     }  
 }
 
