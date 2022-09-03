@@ -11,7 +11,8 @@ Tomato was created to provide a fresh, simple and customizable pomodoro timer fo
 2. Allow user to configure timer & sound effects through gui.
 3. Allow user to configure themes and styles through gui.
 4. Make Tomato pomodoro timer available to download through terminal.
-5. Create a plugin to run doom on this timer.
+5. Create a landing page 
+6. Create a plugin to run doom on this timer.
 
 # 📂 Structure
 1. main.py -> As of right now, all initialization happens inside this file.
