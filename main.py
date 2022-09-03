@@ -3,23 +3,24 @@ from window_class import Window
 
 # Configuration variables
 alarm_sound_file_path = "./sounds/alarm.mp3"
+pause_after_end = True
 phases = {
     "main": {
         "name": "Pomodoro",
-        "minutes": 25,
-        "seconds": 0
+        "minutes": 0,
+        "seconds": 25
     }, 
 
     "short": {
         "name": "Short Break",
-        "minutes": 15,
-        "seconds": 0
+        "minutes": 0,
+        "seconds": 15
     },
 
     "long": {
         "name": "Long Break",
-        "minutes": 30,
-        "seconds": 0
+        "minutes": 0,
+        "seconds": 30
     }  
 }
 
@@ -39,5 +40,5 @@ window = Window(
     timer           = timer,
     title           = "Pomodoro Timer",
     style           = window_style,
-    pause_after_end = False
+    pause_after_end = pause_after_end
 )

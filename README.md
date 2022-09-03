@@ -1,5 +1,5 @@
 # 🍅 Pomidor
-Tomato is a pomodoro technique timer implemented цшер 
+Pomidor is a highly customizable pomodoro technique timer implemented with python and tkinter. 
 
 ### 💎 Goals and Roadmap
 Tomato was created to provide a fresh, simple and customizable pomodoro timer for everyone in need.
