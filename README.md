@@ -26,6 +26,9 @@ To run pomodoro timer - clone or download the repo and run main.py
 $ git clone https://github.com/KonstantinBelenko/Pomidor.git
 $ cd Pomidor
 
+# Install dependencies
+$ pip install -r requirements.txt
+
 # Next thing you would want to do is to configure the app for yourself 
 # Open the main.py and set the timing configuration and preffered styles
 # After that - you can run it. 
